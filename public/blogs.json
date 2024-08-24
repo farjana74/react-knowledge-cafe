@@ -1,0 +1,81 @@
+[
+  {
+    "id": "B001",
+    "cover": "https://i.ibb.co/Gvy2ys3/modern-workspace-with-laptop-camera-smart-phone-coffee-cup-dark-blue-leather-35674-11854.jpg",
+    "title": "The Last Horizon",
+    "author": "James Harper",
+    "author_img": "https://i.ibb.co/PzxqbMm/girl1.jpg",
+    "posted_date": "2024-07-15",
+    "reading_time": 12,
+    "hashtags": [
+      "#Adventure",
+      "#SciFi",
+      "#Mystery"
+    ]
+  },
+  {
+    "id": "B002",
+    "cover": "https://i.ibb.co/KD5Bq8v/woodbone-promotional-mockups-1089697-3808.jpg",
+    "title": "Whispers in the Wind",
+    "author": "Lena Moore",
+    "author_img": "https://i.ibb.co/BN1th2P/girl2.jpg",
+    "posted_date": "2024-06-21",
+    "reading_time": 8,
+    "hashtags": [
+      "#Romance",
+      "#Drama",
+      "#Literature"
+    ]
+  },
+  {
+    "id": "B003",
+    "cover": "https://i.ibb.co/94NhqN3/view-desktop-with-coffee-laptop-325774-1964.jpg",
+    "title": "Shadows of the Past",
+    "author": "David Chen",
+    "author_img": "https://i.ibb.co/PzxqbMm/girl1.jpg",
+    "posted_date": "2024-08-02",
+    "reading_time": 10,
+    "hashtags": [
+      "#Thriller",
+      "#Crime",
+      "#Suspense"
+    ]
+  },
+  {
+    "id": "B004",
+    "cover": "https://i.ibb.co/KD5Bq8v/woodbone-promotional-mockups-1089697-3808.jpg",
+    "title": "Eternal Summer",
+    "author": "Sofia Garcia",
+    "author_img": "https://i.ibb.co/GcVQC9j/boy2.jpg",
+    "posted_date": "2024-05-10",
+    "reading_time": 15,
+    "hashtags": [
+      "#Travel",
+      "#Memoir",
+      "#Inspiration"
+    ]
+  },
+  {
+    "id": "B005",
+    "cover": "https://i.ibb.co/41yYN0f/blogging-concept-web-blog-social-media-information-network-snugly-31965-576840.jpg",
+    "title": "Lost in the Echo",
+    "author": "Michael Bennett",
+    "author_img": "https://i.ibb.co/whDZ1Rk/boy1.png",
+    "posted_date": "2024-08-12",
+    "reading_time": 7,
+    "hashtags": [
+      "#Fantasy",
+      "#Adventure",
+      "#Magic"
+    ]
+  }
+]
+
+
+
+
+
+
+
+
+
