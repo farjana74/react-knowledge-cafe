@@ -8,7 +8,7 @@ const Header = () => {
         <h1 className="text-2xl font-sans font-bold  p-5">Knowledge Cafe</h1>
       </div>
       <div>
-        <img src={profile} alt="" />
+        <img  src={profile} alt="" />
       </div>
     </div>
   );
