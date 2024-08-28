@@ -2,7 +2,7 @@ import React from "react";
 
 import { CiBookmark } from "react-icons/ci";
 const Blog = ({ blog,handleOnBookmark,handleTimeCount }) => {
-  const { title, author, cover, reading_time, author_img, posted_date } = blog;
+  const { title, author, cover, reading_time, author_img, posted_date ,id} = blog;
   return (
     <div>
       <img className="w-full" src={cover} alt="" />
@@ -27,7 +27,7 @@ const Blog = ({ blog,handleOnBookmark,handleTimeCount }) => {
         How to get your first job as a self-taught programmer
       </h2>
       <div className="my-4 ">
-      <button onClick={()=>handleTimeCount(reading_time)} className="underline">Mark as Read:{}</button>
+      <button onClick={()=>handleTimeCount(reading_time,id)} className="underline">Mark as Read:{}</button>
       </div>
     </div>
   );

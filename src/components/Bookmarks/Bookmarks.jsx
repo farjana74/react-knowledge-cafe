@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Bookmark from '../Bookmark/Bookmark';
 
 const Bookmarks = ({bookmark,timeCount}) => {
@@ -11,7 +11,7 @@ const Bookmarks = ({bookmark,timeCount}) => {
             
             <h4 className='text-3xl text-center'>bookmarks: {bookmark.length}</h4>
             {
-              bookmark.map(showMark =><Bookmark key={showMark.id} showMark={showMark} />)  
+              bookmark.map((showMark,idx) =><Bookmark key={idx} showMark={showMark} />)  
             }
         </div>
     );

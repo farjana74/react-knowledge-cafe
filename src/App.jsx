@@ -14,10 +14,18 @@ function App() {
 
   }
 
-  const handleTimeCount = count =>{
+  const handleTimeCount = (count,id) =>{
     console.log(count)
     const newCounting = timeCount+count
     setTimeCount(newCounting)
+
+    // remove bookmark from the ?list
+
+    const remainingBookMarks = bookmark.filter(bookmarks=>bookmarks.id!== id)
+    setBookMark(remainingBookMarks)
+
+
+
 
   }
 

@@ -23,8 +23,8 @@ const Blogs = ({handleOnBookmark,handleTimeCount}) => {
   return (
     <div className="md:w-2/3  border">
       {/* <h3>blogs length :{showBlog.length}</h3> */}
-      {showBlog.map((blog) => (
-        <Blog key={blog.id} handleOnBookmark={handleOnBookmark} handleTimeCount={handleTimeCount} blog={blog} />
+      {showBlog.map((blog,idx) => (
+        <Blog key={idx} handleOnBookmark={handleOnBookmark} handleTimeCount={handleTimeCount} blog={blog} />
       ))}
     </div>
   );
