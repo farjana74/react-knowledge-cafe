@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import Blog from "../Blog/Blog";
 import PropTypes from 'prop-types'; 
 
-const Blogs = ({handleOnBookmark}) => {
+const Blogs = ({handleOnBookmark,handleTimeCount}) => {
   const [showBlog, setShowBlog] = useState([]);
 
   useEffect(() => {
@@ -21,10 +21,10 @@ const Blogs = ({handleOnBookmark}) => {
     //   });
   }, []);
   return (
-    <div className="md:w-2/3 border">
-      <h3>blogs length :{showBlog.length}</h3>
+    <div className="md:w-2/3  border">
+      {/* <h3>blogs length :{showBlog.length}</h3> */}
       {showBlog.map((blog) => (
-        <Blog key={blog.id} handleOnBookmark={handleOnBookmark} blog={blog} />
+        <Blog key={blog.id} handleOnBookmark={handleOnBookmark} handleTimeCount={handleTimeCount} blog={blog} />
       ))}
     </div>
   );
@@ -32,7 +32,7 @@ const Blogs = ({handleOnBookmark}) => {
 
 
 
-Blogs.proptypes={
+Blogs.propTypes={
   handleOnBookmark :PropTypes.func
 }
 

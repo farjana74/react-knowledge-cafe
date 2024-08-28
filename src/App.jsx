@@ -6,9 +6,18 @@ import Bookmarks from "./components/Bookmarks/Bookmarks";
 
 function App() {
   const [bookmark, setBookMark] = useState([]);
+  const [timeCount, setTimeCount]= useState(0)
+
   const handleOnBookmark = blog =>{
     const newBookmark = [...bookmark,blog]
     setBookMark(newBookmark)
+
+  }
+
+  const handleTimeCount = count =>{
+    console.log(count)
+    const newCounting = timeCount+count
+    setTimeCount(newCounting)
 
   }
 
@@ -18,8 +27,8 @@ function App() {
         <Header />
 
         <div className="flex  justify-between">
-          <Blogs handleOnBookmark ={handleOnBookmark} />
-          <Bookmarks bookmark={bookmark} />
+          <Blogs handleOnBookmark ={handleOnBookmark} handleTimeCount={handleTimeCount} />
+          <Bookmarks bookmark={bookmark}  timeCount={timeCount} />
         </div>
       </div>
     </>
